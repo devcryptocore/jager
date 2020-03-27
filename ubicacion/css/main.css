@@ -1,0 +1,87 @@
+html, body,footer
+{
+  height: 100%;
+}
+body
+{
+  background-image: url(2.png),url(1.png),url(background.png);
+  margin: auto;
+  overflow: hidden;
+}
+h1
+{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-align: center;
+  margin: auto;
+  position: fixed;
+  top: 5%;
+  left: 0%;
+  right: 0%;
+}
+h2
+{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-align: center;
+  margin: auto;
+  position: fixed;
+  top: 15%;
+  left: 0%;
+  right: 0%;
+}
+.form {
+  margin-left: 50px;
+  position: relative;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0);
+  max-width: 360px;
+  margin: 0 auto 0px;
+  padding: 0px;
+  text-align: center;
+}
+.form input {
+  margin-left: 50px;
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.button
+{
+  background-color: #34DB62;
+  border: 0px solid white;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding: 14px 40px;
+  border-radius: 6px;
+  width: 50%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  position: fixed;
+  left: 25%;
+  right: 25%;
+  bottom: 14%;
+  transition: text-shadow 0.2s linear;
+  text-shadow: 1px 2px 0px #044c09;
+}
+.text
+{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-align: center;
+  margin: auto;
+  position: fixed;
+  top: 5%;
+  left: 0%;
+  right: 0%;
+  z-index: 1;
+}
+
