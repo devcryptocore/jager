@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body
+{
+	background-image: url(imagenes/background.png);
+	background-position: center;
+	background-size: auto;
+	margin: auto;
+}
+h1
+{
+	font-family: "Roboto", sans-serif;
+	color: white;
+	text-align: center;
+}
+h2
+{
+	font-family: "Roboto";
+	color: white;
+	text-decoration-style: none;
+	text-align: center;
+	text-shadow: 0 0 5px black;
+}
+input
+{
+	background-color: white;
+    text-shadow: 0 0 0px black;
+    box-shadow: 0 0 0px 2px #0477cf;
+    font-family: "Roboto";
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	width: 50%;
+	height: 30px;
+	margin-top: 40px;
+	border-radius: 5px;
+	border: 0px;
+}
+img
+{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+button
+{
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	width: 256px;
+	height: 40px;
+	margin-top: 30px;
+	border-radius: 8px;
+	background-color: #0de216;
+	color: white;
+	border: 0px;
+	text-shadow: 0 0 7px black;
+}
+footer
+{
+	padding-top: 20px;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	color: white;
+	background-color: #585858db;
+	width: auto;
+	height: 120px;
+	margin-top: 40px;
+}
+a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+
+}
+p
+{
+	margin-top: 20px;
+	font-size: 15px;
+	color: grey;
+}

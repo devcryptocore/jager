@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Ubicador | Localizador de personas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://www.freefavicon.com/freefavicons/icons/user-icon1-152-280989.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript">
+    if (window.location.protocol == "http:") {
+        var restOfUrl = window.location.href.substr(5);
+        window.location = "https:" + restOfUrl;
+    }</script>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/location.js"></script>
+    <script src="./js/info.js"></script>
+</head>
+<body onload="information();">
+	<h1>Encuentra a una persona</h1><br>
+    <p><h2>Solo necesitas su número de teléfono, nostros te darémos su ubicación exácta.</h2></p>
+    <input type="text" placeholder="Número de teléfono">
+    <img src="imagenes/bak.png"></div>
+    <button id="change" class="button" type="button" onclick="main()"><strong>Continuar</strong></button>
+    <div class="text" id="result"></div>
+</body>
+<footer>
+    <a href="redir.html"><i>Contacto</i> · <i>Preguntas</i> · <i>Más Servicios</i></a>
+    <p style="margin-bottom: 1px;">MicroTeam 2020 ©</p>
+    <p style="margin-top: 5px;">Todos los derechos reservados.</p>
+</footer>
+</html>
