@@ -25,7 +25,6 @@ bbg = Back.BLACK
 r = Style.RESET_ALL
 
 linea = vr + '_______________________________________________' + r
-captura = 'vigo/foto/captura'
 sign = vr + '[' + r + '-' + vr + ']' + r
 warn = am + '[' + r + rj + '!'+ r + am + ']' + r
 ubicacion = "ubicacion/php/result.txt"
