@@ -1,5 +1,5 @@
-# Jager by System Failure
-# https://informaticayhacking.com
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import json
 import time
 import os.path
@@ -184,3 +184,4 @@ def ejecucion():
 ejecucion()
 sys.exit()
 # Creado por: System Failure | Informática y Hacking © 2020
+# https://informaticayhacking.com
