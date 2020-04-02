@@ -77,6 +77,7 @@ def conexion():
 			subp.Popen(['php', '-S', 'localhost:4646', '-t', 'ubicacion'], stderr=jphp, stdout=jphp)
 		with open('jssh.log', 'w') as jssh:
 			opr = subp.Popen(['ssh', '-R', '80:localhost:4646', 'ssh.localhost.run'], stdout = jssh)
+		time.sleep(5)
 		os.system('clear')
 		time.sleep(3)
 	except NameError:
