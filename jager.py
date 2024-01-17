@@ -43,9 +43,9 @@ def banner():
 	print ('		' + brj + ng + '__________________________________________' + r)
 	print ('		' + bbl + ng + '__________ Informática y Hacking _________' + r)
 	print ('		' + brj + ng + '__________________________________________' + r)
-	print ('		' + bbl + ng + '______https://informaticayhacking.com_____' + r)
+	print ('		' + bbl + ng + '__https://informaticayhacking.github.com__' + r)
 	print ('		' + brj + ng + '__________________________________________' + r)
-	print ('		' + bbl + ng + '________t.me/Informatica_y_Hacking________' + r)
+	print ('		' + bbl + ng + '_________t.me/InformaticayHacking_________' + r)
 	print ('		' + brj + ng + '__________________________________________\n\n' + r)
 
 os.system('rm ubicacion/php/result.txt')
@@ -76,7 +76,7 @@ def conexion():
 		with open('jphp.log', 'w') as jphp:
 			subp.Popen(['php', '-S', 'localhost:4646', '-t', 'ubicacion'], stderr=jphp, stdout=jphp)
 		with open('jssh.log', 'w') as jssh:
-			opr = subp.Popen(['ssh', '-R', '80:localhost:4646', 'ssh.localhost.run'], stdout = jssh)
+			opr = subp.Popen(['ssh', '-R', '80:localhost:4646', 'nokey@localhost.run'], stdout = jssh)
 		time.sleep(5)
 		os.system('clear')
 		time.sleep(3)
@@ -87,9 +87,9 @@ def conexion():
 		limpiar()
 	with open('jssh.log', 'r') as jssh:
 		salida = [linea.split() for linea in jssh]
-		a = salida[0]
+		a = salida[2]
 		b = ''.join(a)
-		url = b[48:]
+		url = b[50:]
 	os.system('reset')
 	os.system('clear')
 	banner()
@@ -184,5 +184,5 @@ def ejecucion():
 	detalles()
 ejecucion()
 sys.exit()
-# Creado por: System Failure | Informática y Hacking © 2020
-# https://informaticayhacking.com
+# Creado por: System Failure | Informática y Hacking © 2023
+# https://informaticayhacking.github.com
