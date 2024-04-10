@@ -17,7 +17,7 @@
 <p>[-] cd jager</p>
 <p>[-] python jager.py</p>
 
-<p>https://t.me/Informatica_y_Hacking</p>
+<p>https://t.me/+NzJDZaOyojE1ZTZh</p>
 
 Demo:
 https://www.youtube.com/watch?v=FQSs0fwb7Xw
