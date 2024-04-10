@@ -8,10 +8,12 @@
 <p>Es importante que antes de ejecutar el script, use el comando "ssh -R 80:localhost:3333 nokey@localhost.run" y escriba "yes" cuando se requiera.</p>
 <h2>Instalación:</h2>
 <p>pip install -r requirements.txt</p>
-<h2>Uso</h2>
 <p>[-] apt install php</p>
 <p>[-] apt install openssh</p>
 <p>[-] pip install requirements.txt</p>
+<p>[-] ssh -R 80:localhost:3333 nokey@localhost.run</p>
+<p>[-] yes</p>
+<h2>Uso</h2>
 <p>[-] cd jager</p>
 <p>[-] python jager.py</p>
 
